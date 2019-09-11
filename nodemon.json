@@ -1,0 +1,9 @@
+{
+  "execMap": {
+    "js": "sucrase-node"
+  },
+  "events": {
+    "crash": "kill-port 3333"
+  },
+  "delay": "1500"
+}
