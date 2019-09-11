@@ -1,6 +1,8 @@
 # How to test
 First of all I'm using **yarn** instead of **npm**. So run `yarn` inside the application directory to install all dependencies.
 
+To watch the server: `yarn dev` or `yarn nodemon src/server.js`
+
 ## Database
 I'm using docker to create a postgres image.
 To build the service run:
@@ -79,4 +81,3 @@ req.body:
   "confirmPassword":"new_password_confirmation //this are not required"
 }
 ```
-
