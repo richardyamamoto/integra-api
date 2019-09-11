@@ -19,12 +19,12 @@ For a better way to test the requests, I'm using [Insomnia](https://insomnia.res
 
 ### Requests
 For this project, the application is listening the port 3333 from localhost
-localhost:3333/users
+
+>localhost:3333
 
 #### Create User
 
-> POST Request
-localhost:3333/users
+> POST Request > localhost:3333/users
 
 req.body:
 ```json
@@ -38,13 +38,11 @@ req.body:
 ```
 #### List User
 
-> GET Request
-localhost:3333/users
+> GET Request > localhost:3333/users
 
 #### Login
 
->POST Request
-localhost:3333/sessions
+>POST Request > localhost:3333/sessions
 
 req.body:
 ```json
@@ -56,8 +54,7 @@ req.body:
 
 #### Delete User
 
-> DELETE Request
-localhost:3333/users/:id
+> DELETE Request > localhost:3333/users/:id
 
 **Note:**
 To delete, the user must be in session.
@@ -68,8 +65,7 @@ In this project the bearer token was used to validate the session. To test the r
 
 To update, the user must be in session too.
 
-> PUT Request
-localhost:3333/users/
+> PUT Request > localhost:3333/users
 
 req.body:
 ```json
@@ -78,9 +74,9 @@ req.body:
 	"email":"email",
 	"cpf":"cpf_number",
 	"phone": "phone_number",
-  "oldPassword":"old_password", // this are not required
-  "password":"new_password", // this are not required
-  "confirmPassword":"new_password_confirmation" // this are not required
+  "oldPassword":"old_password //this are not required", 
+  "password":"new_password //this are not required",
+  "confirmPassword":"new_password_confirmation //this are not required"
 }
 ```
 
