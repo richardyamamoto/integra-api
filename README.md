@@ -12,7 +12,7 @@ To build the service run:
 ```
 
 **Note:**
-For a better visualization, I'm using a GUI to postgres/MySql, etc. [Postbird](https://electronjs.org/apps/postbird)
+For a better visualization, I'm using a GUI to PostgreSQL, etc. [Postbird](https://electronjs.org/apps/postbird)
 
 ---
 ## JSON
